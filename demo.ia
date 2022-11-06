@@ -1,0 +1,41 @@
+cThis statement increments the cell 15 by 10
++15#10
+
+cThis statement decrements the cell 15 or goes to line 8
+-15>10
+
+cYou can add pipes at the end of statements to goto another line
++1|5
+
+cYou can reset a cell if you would like to
+r1
+
+cYou can also print out a predefined string
+pHello, world!
+
+cInput is sent directly to the 0 cell and can be accessed like this
+pEnter a number! I will print it out!
+-0>28
+-0>29
+-0>30
+-0>31
+-0>32
+-0>33
+-0>34
+-0>35
+-0>36
+-0>37
+|39p0
+|39p1
+|39p2
+|39p3
+|39p4
+|39p5
+|39p6
+|39p7
+|39p8
+|39p9
+
+cCode execution ends when there is none left.
+pYay! Were all done!
+c(I know. There should be an apostrophe. I forgot how to sanitize SQL tho.)
